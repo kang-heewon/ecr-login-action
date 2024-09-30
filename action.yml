@@ -7,10 +7,10 @@ description: 'Logs into ECR and provides Docker credentials'
 inputs:
   access_key:
     description: 'The AWS access key'
-    required: true
+    required: false
   secret_access_key:
     description: 'The AWS secret access key'
-    required: true
+    required: false
   region:
     description: 'The AWS region you would like to login to'
     required: true
